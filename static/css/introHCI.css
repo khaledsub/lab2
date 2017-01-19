@@ -13,7 +13,11 @@
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      border: 1px dotted gray;
-     padding: 20px;
+     padding: 10px;
+}
+
+#project1 {
+     font-variant: small-caps;
 }
 
 .jumbotron {
@@ -31,4 +35,10 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+img .thumbnail {
+     width: 50px;
+     height: 100px;
+     border: 1px solid #434343;
 }
